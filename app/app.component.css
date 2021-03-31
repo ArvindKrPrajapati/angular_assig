@@ -1,0 +1,13 @@
+.main{
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-left:-50px;
+    margin-top:-13px;
+    width:100px;
+
+}
+.main input{
+    width:100px;
+    height:26px;
+}
