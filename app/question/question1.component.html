@@ -1,0 +1,33 @@
+
+<style>
+    .main{
+        padding:20px;
+    }
+    .main input{
+        display:block;
+        margin:auto;
+        border-radius: 5px;
+        padding:10px;
+        border:1px solid gainsboro;
+    }
+    button{
+        display: block;
+        margin:auto;
+        padding:10px;
+        border:none;
+        background: dodgerblue;
+        color:white;
+        border-radius: 3px;
+        box-shadow: 1px 1px 10px grey;
+    }
+</style>
+
+<div class="main">
+  <strong>Note:-</strong>Enter index starting from 1
+  <br><br>
+   <input type="number" placeholder="Enter index Number "[(ngModel)]="n"/><br>
+   <button (click)="getNum()">answer</button>
+   <h1>{{ans}}</h1>
+   
+  
+</div>
